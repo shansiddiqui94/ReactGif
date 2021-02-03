@@ -1,8 +1,13 @@
 import "./App.css";
-import axios from "axios";
-
+import Fetchgif from "./components /Fetchgif";
+import Header from "./components /Header";
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <Header />
+      <Fetchgif />
+    </div>
+  );
 }
 
 export default App;
